@@ -359,13 +359,14 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    color: #40BB40;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 40px;
     color: #40BB40;
