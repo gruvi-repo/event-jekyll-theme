@@ -1,35 +1,35 @@
-title: Your Title
+# Site settings
+title: GrUVi
+email: haoz@sfu.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Your description
-baseurl: "/event-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # "Your-Link.github.io" # the base hostname & protocol for your site
-# Build settings
+  GrUVi is an inter-disciplinary team of researchers exploring and developing novel methods in computer graphics, computer vision, and interactive techniques. Current areas of focus include geometric modelling and processing, image-based modelling, 3D reconstruction, 3D content creation, shape analysis, lighting and reflectance models, and 3D vision for robotics.
+baseurl: "/event-jekyll-theme"
+url: ""
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-facebook:
-  app_id: 
 
-logo: "../css/2016_style/img/icon-large.png"
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
-
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
-
-include: ['_2016_pages', '_2017_pages']
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
