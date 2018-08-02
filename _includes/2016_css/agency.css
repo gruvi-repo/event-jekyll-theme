@@ -28,6 +28,12 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+containerbackground {
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    color: #000;
+}
+
 @media screen and (max-width : 1200px){
   body {
       padding-bottom: 100px;
