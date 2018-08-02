@@ -29,9 +29,8 @@ body {
 }
 
 containerbackground {
-    opacity: 0.25;
-    filter: alpha(opacity=25);
-    color: #000;
+    background:#7f7f7f;
+    background:rgba(0,0,0,0.5);
 }
 
 @media screen and (max-width : 1200px){
