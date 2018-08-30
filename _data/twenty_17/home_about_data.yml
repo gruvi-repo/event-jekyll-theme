@@ -1,35 +1,23 @@
 - inverted: 
   img: icon-about.jpeg
-  name: Symposium on Geometry Processing
+  name: Solid and Physical Modelling
   info: The premier venue for disseminating new research ideas and cutting-edge results in geometry processing.
   link: /about
 
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
-  name: Shape Modeling International
+  name: SIAM Conference on Computational Geometric Design
   info: The premier international forum for the dissemination of new mathematical theories and novel computational techniques for modeling, simulating, and processing digital shape representations.
   link: /agenda
 
 - inverted: 
   img: icon-team.jpeg
-  name: Symposium on Solid & Physical Modeling
+  name: Shape Modelling International
   info: High quality, original research contributions that strive to advance all aspects of geometric and physical modeling, and their application in design, analysis and manufacturing.
   link: /team
 
 - inverted: timeline-inverted
   img: booklet-icon.png
-  name: Fabrication and Sculpting Event
+  name: International Conference on Geometric Modelling and Processing
   info: Original research at the intersection of theory and practice in shape modeling, fabrication and sculpting. 
   link: /booklet
-
-- inverted: timeline-inverted
-  img: icon-venue.jpeg
-  name: Venue
-  info: Learn more about our location
-  link: /venue
-
-- inverted: 
-  img: icon-faq.jpeg
-  name: FAQs
-  info: Have a Question? Many answers can be found right here in our FAQs
-  link: /faqs
