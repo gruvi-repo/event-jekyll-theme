@@ -1,20 +1,26 @@
 - inverted: 
   img: icon-about.jpeg
-  name: Theme, Vision, Mission
-  info: Read more about our Theme, Vision, and Mission
+  name: Symposium on Geometry Processing
+  info: The premier venue for disseminating new research ideas and cutting-edge results in geometry processing.
   link: /about
 
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
-  name: Agenda
-  info: Check out the agenda
+  name: Shape Modeling International
+  info: The premier international forum for the dissemination of new mathematical theories and novel computational techniques for modeling, simulating, and processing digital shape representations.
   link: /agenda
 
 - inverted: 
   img: icon-team.jpeg
-  name: Team
-  info: Find out the team members
+  name: Symposium on Solid & Physical Modeling
+  info: High quality, original research contributions that strive to advance all aspects of geometric and physical modeling, and their application in design, analysis and manufacturing.
   link: /team
+
+- inverted: timeline-inverted
+  img: booklet-icon.png
+  name: Fabrication and Sculpting Event
+  info: Original research at the intersection of theory and practice in shape modeling, fabrication and sculpting. 
+  link: /booklet
 
 - inverted: timeline-inverted
   img: icon-venue.jpeg
@@ -27,9 +33,3 @@
   name: FAQs
   info: Have a Question? Many answers can be found right here in our FAQs
   link: /faqs
-
-- inverted: timeline-inverted
-  img: booklet-icon.png
-  name: Event Booklet
-  info: View or Download our event booklet
-  link: /booklet
