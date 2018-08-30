@@ -12,19 +12,19 @@
                     <ul class="timeline">
                         {% for about_data in site.data.twenty_17.home_about_data %}
                             <li class="{{ about_data.inverted }}">
-                                <div class="timeline-image">
-                                    <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <a href="{{ about_data.link }}">
-                                                <h4>{{ about_data.name }}</h4>
-                                        </a>
-                                    </div>
                                 </div>
                                     <a href="{{ about_data.link }}">
                                         <img class="img-circle img-responsive" src="{{site.baseurl}}/css/2016_style/img/{{ about_data.img }}" alt="">
                                     </a>
                                 </div>
                             </li>
+                            <div class="timeline-image">
+                                    <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <a href="{{ about_data.link }}">
+                                                <h4>{{ about_data.name }}</h4>
+                                        </a>
+                                    </div>
                         {% endfor %}
                     </ul>
                 </div>
