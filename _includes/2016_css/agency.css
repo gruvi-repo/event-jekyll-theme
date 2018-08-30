@@ -29,7 +29,7 @@ body {
 }
 
 containerbackground {
-    background:#7f7f7f;
+    background:#A6192E;
     background:rgba(0,0,0,0.5);
 }
 
@@ -107,7 +107,7 @@ aside.clients {
 
 aside.clients,
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #A6192E;
 }
 
 .bg-darkest-gray {
@@ -452,7 +452,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #3cb371;
+    background: #A6192E;
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
