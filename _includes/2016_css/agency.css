@@ -308,6 +308,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .timeline-panel {
+        padding: 30px 20px 20px 30px;
+    }
     .navbar-default-color {
         padding: 25px 0;
         background-color: transparent;
@@ -663,6 +666,9 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+    .timeline-panel {
+        padding: 50px 20px 20px 30px;
+    }
     .timeline>li {
         min-height: 150px;
     }
