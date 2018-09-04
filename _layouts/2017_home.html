@@ -1,26 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <script>
-    i = 0;
-    window.onload = function () {
-
-    function changeImage() {   
-        
-        if (i == 0) {
-          i = i + 1;
-          BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
-        }
-        else {
-          i = i - 1;
-          BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
-        }
-        var header1 = document.getElementsByClassName('header1');
-        console.log(BackgroundImg);
-        header1[0].style.backgroundImage =    BackgroundImg;
-    }
-    window.setInterval(changeImage, 2000);
-}
-  </script>
 
   {% include 2016_data/head.html %}
 
