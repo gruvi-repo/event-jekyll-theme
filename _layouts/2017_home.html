@@ -11,9 +11,21 @@
           i = i + 1;
           BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/header-bg.jpg)';
         }
+        else if (i == 1) {
+          i = i + 1;
+          BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/A.jpg)';
+        }
+        else if (i == 2) {
+          i = i + 1;
+          BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/B.jpg)';
+        }
+        else if (i == 3) {
+          i = i + 1;
+          BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/C.jpg)';
+        }
         else {
-          i = i - 1;
-          BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/header-bg.jpg)';
+          i = 0;
+          BackgroundImg = 'url({{ site.baseurl }}/css/2016_style/img/D.jpg)';
         }
         var header1 = document.getElementsByClassName('header1');
         console.log(BackgroundImg);
