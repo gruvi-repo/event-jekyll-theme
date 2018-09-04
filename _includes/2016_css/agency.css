@@ -110,6 +110,10 @@ aside.clients,
     background-color: #A6192E;
 }
 
+.bg-white {
+    background-color: #FFF;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
