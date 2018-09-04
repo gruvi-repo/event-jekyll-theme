@@ -6,7 +6,7 @@
       
     var bgImageArray = ["header-bg.jpg", "A.jpeg","B.jpeg","C.jpeg","D.jpeg"],
 base = "{{ site.baseurl }}/css/2016_style/img/",
-secs = 2;
+secs = 3;
 bgImageArray.forEach(function(img){
     new Image().src = base + img; 
     // caches images, avoiding white flash between background replacements
@@ -19,7 +19,7 @@ function backgroundSequence() {
 		setTimeout(function(){ 
       			var header1 = document.getElementsByClassName('header1');
 			console.log('url(' + base + bgImageArray[k] + ')');
-      			header1[0].style.backgroundImage =  'url(' + base + bgImageArray[k] + ')';
+      			header1[0].style.backgroundImage =  'url(' + base + bgImageArray[k] + ') no-repeat center center fixed';
 			document.documentElement.style.backgroundSize ="cover";
 			if ((k + 1) === bgImageArray.length) {
 				setTimeout(function() { backgroundSequence() }, (secs * 1000))
@@ -27,6 +27,7 @@ function backgroundSequence() {
 			else { k++; }			
 		}, (secs * 1000) * i)	
 	}
+	backgroundSequence();
 }
 backgroundSequence();
       
