@@ -6,12 +6,14 @@
 
     function changeImage() {   
         
-        if (i == 0):
+        if (i == 0) {
           i = i + 1;
           BackgroundImg = "https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5adde3953c33ac273a33a2a990aa7e80&w=1000&q=80";
-        else:
+        }
+        else {
           i = i - 1;
           BackgroundImg = "http://sfwallpaper.com/images/cool-pattern-backgrounds-24.jpg"
+        }
         document.body.header.backgroundImage = 'url(BackgroundImg)';
     }
     window.setInterval(changeImage, 2000);
