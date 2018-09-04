@@ -1,23 +1,23 @@
 - inverted: 
-  img: icon-about.jpeg
-  name: Solid and Physical Modelling
+  img: SPM.png
+  name: Solid and Physical Modelling 2019
   info: The premier venue for disseminating new research ideas and cutting-edge results in geometry processing.
   link: /about
 
 - inverted: timeline-inverted
-  img: icon-agenda.jpeg
-  name: SIAM Conference on Computational Geometric Design
+  img: SIAM.png
+  name: SIAM Conference on Computational Geometric Design 2019
   info: The premier international forum for the dissemination of new mathematical theories and novel computational techniques for modeling, simulating, and processing digital shape representations.
   link: /agenda
 
 - inverted: 
-  img: icon-team.jpeg
-  name: Shape Modelling International
+  img: SMI.png
+  name: Shape Modelling International 2019
   info: High quality, original research contributions that strive to advance all aspects of geometric and physical modeling, and their application in design, analysis and manufacturing.
   link: /team
 
 - inverted: timeline-inverted
-  img: booklet-icon.png
-  name: International Conference on Geometric Modelling and Processing
+  img: GMP.png
+  name: International Conference on Geometric Modelling and Processing 2019
   info: Original research at the intersection of theory and practice in shape modeling, fabrication and sculpting. 
   link: /booklet
