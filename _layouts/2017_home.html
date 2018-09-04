@@ -9,10 +9,12 @@
         
         if (i == 0) {
           i = i + 1;
+          console.log('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
           BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
         }
         else {
           i = i - 1;
+          console.log('1' + '{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
           BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
         }
         var header1 = document.getElementsByClassName('header1');
