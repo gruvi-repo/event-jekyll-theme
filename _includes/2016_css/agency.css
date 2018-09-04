@@ -358,6 +358,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-blend-mode: darken;
+    transition: 3s;
 }
 
 header .intro-text {
