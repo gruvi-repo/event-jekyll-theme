@@ -4,6 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.heightstuff {
+    display: table-cell;
+    vertical-align: middle;
+    height: 80px;
+}
+
+@media screen and (min-width : 992px){
+	.heightstuff {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width : 1200px){
+	.heightstuff {
+		height: 170px;
+	}
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
