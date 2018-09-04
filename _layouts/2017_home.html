@@ -14,8 +14,7 @@
           i = i - 1;
           BackgroundImg = "http://sfwallpaper.com/images/cool-pattern-backgrounds-24.jpg"
         }
-        var header1 = document.getElementsByClassName('header1');
-        header1[0].style.backgroundImage =    BackgroundImg;
+        document.getElementById("header1").style.background = 'url(BackgroundImg)';
     }
     window.setInterval(changeImage, 2000);
 }
