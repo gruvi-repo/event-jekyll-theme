@@ -14,7 +14,8 @@
           i = i - 1;
           BackgroundImg = "http://sfwallpaper.com/images/cool-pattern-backgrounds-24.jpg"
         }
-        document.body.style.backgroundImage = 'url(BackgroundImg)';
+        var header1 = document.getElementsByClassName('header1');
+        header1[0].style.backgroundImage =    BackgroundImg;
     }
     window.setInterval(changeImage, 2000);
 }
@@ -28,7 +29,7 @@
     {% include 2017_data/header-home.html %}
 
     <!-- Header -->
-    <header>
+    <header class="header1">
         <div class="container containerbackground">
             <div class="intro-text">
                 <div class="intro-heading" style="color: #A6192E">
