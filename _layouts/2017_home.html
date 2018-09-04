@@ -8,11 +8,11 @@
         
         if (i == 0) {
           i = i + 1;
-          BackgroundImg = "https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5adde3953c33ac273a33a2a990aa7e80&w=1000&q=80";
+          BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
         }
         else {
           i = i - 1;
-          BackgroundImg = "http://sfwallpaper.com/images/cool-pattern-backgrounds-24.jpg"
+          BackgroundImg = url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
         }
         var header1 = document.getElementsByClassName('header1');
         console.log(BackgroundImg);
