@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <script>
+    window.onload = function () {
+
+    function changeImage() {   
+        var BackgroundImg["https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5adde3953c33ac273a33a2a990aa7e80&w=1000&q=80",
+            "http://sfwallpaper.com/images/cool-pattern-backgrounds-24.jpg"
+        ];
+        var i = Math.floor((Math.random() * 4));
+        document.body.header.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+    }
+    window.setInterval(changeImage, 2000);
+}
+  </script>
 
   {% include 2016_data/head.html %}
 
