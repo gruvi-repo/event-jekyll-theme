@@ -18,6 +18,7 @@ function backgroundSequence() {
 	for (i = 0; i < bgImageArray.length; i++) {
 		setTimeout(function(){ 
       			var header1 = document.getElementsByClassName('header1');
+			console.log('url(' + base + bgImageArray[k] + ')');
       			header1[0].style.backgroundImage =  'url(' + base + bgImageArray[k] + ')';
 			document.documentElement.style.backgroundSize ="cover";
 			if ((k + 1) === bgImageArray.length) {
