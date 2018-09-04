@@ -2,6 +2,16 @@
 <html>
   
     <script>
+      
+      var bgImageArray = ["header-bg.jpg", "A.jpeg","B.jpeg","C.jpeg","D.jpeg"],
+base = "{{ site.baseurl }}/css/2016_style/img/",
+secs = 4;
+bgImageArray.forEach(function(img){
+    new Image().src = base + img; 
+    // caches images, avoiding white flash between background replacements
+});
+
+      
     i = 0;
       
   window.onload = function () {
