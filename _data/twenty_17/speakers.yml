@@ -1,6 +1,6 @@
 - title: Richard Zhang
   name: Richard Zhang
-  subtitle: Chair?
+  subtitle: Placeholder
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
@@ -10,6 +10,15 @@
 - title: Ali Mahdavi-Amiri
   name: Ali Mahdavi-Amiri
   subtitle: Placeholder
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+
+- title: Wallace Lira
+  name: Wallace Lira
+  subtitle: Website manager
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
