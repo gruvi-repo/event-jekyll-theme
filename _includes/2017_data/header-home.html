@@ -1,43 +1,35 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="/"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Conferences</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsors">Registration</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#accommodation">Accommodation</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#speakers">Organizers</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <div class="row">
+    <div class="col-sm-4">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+        <img  style="width: 100px" src="image.png" alt=" logo" >
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Section 3</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+      </nav>
+    </div>
+    <div class="col-sm-8">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+    </div>
+  </div>
 
 <!--
         {% for page in site.pages %}
