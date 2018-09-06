@@ -24,13 +24,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     var myClass = this.className;
     if (myClass != "dropdown-toggle"){
-	    console.log(myClass);
 	    $('.navbar-toggle:visible').click();
-    } else {
-	    console.log("heya!!");
     }
-	
-    
 });
 
 $('div.modal').on('show.bs.modal', function() {
