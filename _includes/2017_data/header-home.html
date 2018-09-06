@@ -1,35 +1,53 @@
-<div class="navbar-expand-sm navbar-dark navbar-fixed-top navbar-default" style="background-color: rgb(55, 55, 55, 0.85)" role="navigation">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+
+<!-- Navigation -->
+    <nav class="navbar-expand-sm navbar-dark navbar-fixed-top navbar-default" style="background-color: rgb(55, 55, 55, 0.85)">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll" style="margin-right: 15px; margin-left: 15px;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-    </button>
+                </button>
+            </div>
 
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://fontenele.github.io/bootstrap-navbar-dropdowns/" target="_blank">Github</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#about">Conferences</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Attendees</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                    <li class="dropdown-item" href="#sponsors"><a>Registration</a></li>
-                    <li class="dropdown-item" href="#accomodation"><a>Accomodation</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left: 15px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Attendees</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                            <li class="dropdown-item" href="#sponsors"><a>Registration</a></li>
+                            <li class="dropdown-item" href="#accomodation"><a>Accomodation</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a class="page-scroll" href="#speakers">Organizers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="dropdown-item" href="#contact"><a>Contact</a></li>
-            
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
