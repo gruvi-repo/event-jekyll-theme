@@ -22,7 +22,14 @@ $('body').scrollspy({
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+    var myClass = this.className;
+    if (myClass != "dropdown-toggle"){
+	    $('.navbar-toggle:visible').click();
+    } else {
+	    console.log(myClass);
+    }
+	
+    
 });
 
 $('div.modal').on('show.bs.modal', function() {
