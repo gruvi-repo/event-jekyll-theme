@@ -1,7 +1,7 @@
-- image: A.jpg 
+- image: A.jpeg 
   tile: Shalala
   description: First slide...
   
-- image: B.jpg 
+- image: B.jpeg 
   tile: Shalala 2
   description: Second slide...
