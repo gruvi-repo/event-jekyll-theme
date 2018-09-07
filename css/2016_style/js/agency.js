@@ -4,6 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// Add slideDown animation to Bootstrap dropdown when expanding.
+  $('.dropdown').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+  });
+
+  // Add slideUp animation to Bootstrap dropdown when collapsing.
+  $('.dropdown').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+  });
+
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
