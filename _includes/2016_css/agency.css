@@ -4,6 +4,32 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #dc3545;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: #000000;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #dc3545;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: #000000;
+}
+
 .carousel-caption-side {
   background: none repeat scroll 0 0 #000000;
   margin-top: 50vh;
