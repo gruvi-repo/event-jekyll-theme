@@ -407,9 +407,7 @@ header {
     height: 100vh;
     text-align: center;
     color: #fff;
-    {% for post in site.data.twenty_17.carousel limit:1 %}
-	background-image: url('{{ site.baseurl }}/css/2016_style/img/{{post.image}}');
-    {% endfor %}
+    background-image: url('{{ site.baseurl }}/css/2016_style/img/B.jpeg');
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
