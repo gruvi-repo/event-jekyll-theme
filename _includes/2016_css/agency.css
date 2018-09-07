@@ -4,6 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
 .carousel-indicators .active {
     margin: 0;
     width: 12px;
