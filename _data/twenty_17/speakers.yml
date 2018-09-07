@@ -1,5 +1,5 @@
-- title: Konrad  Polthier 
-  name: Konrad  Polthier 
+- title: Konrad Polthier 
+  name: Konrad Polthier 
   subtitle: Free  University  of  Berlin
   img: konradPolthier.jpg
   thumbnail: konradPolthier.jpg
@@ -7,8 +7,8 @@
   topic: Topic
   description: More Info
 
-- title: Wenping  Wang
-  name: Wenping  Wang
+- title: Wenping Wang
+  name: Wenping Wang
   subtitle: University  of  Hong  Kong 
   img: wenpingWang.jpg
   thumbnail: wenpingWang.jpg
@@ -25,8 +25,8 @@
   topic: Topic
   description: More Info
   
-- title: Ali  Mahdavi  Amiri
-  name:Ali  Mahdavi  Amiri
+- title: Ali Mahdavi-Amiri
+  name:Ali Mahdavi-Amiri
   subtitle: Simon  Fraser  University
   img: amiriAli.jpg
   thumbnail: aliAmiri.jpg
