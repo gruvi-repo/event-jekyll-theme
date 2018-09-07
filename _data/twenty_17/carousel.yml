@@ -1,7 +1,15 @@
-- image: A.jpeg 
-  tile: Shalala
-  description: First slide...
-  
 - image: B.jpeg 
-  tile: Shalala 2
-  description: Second slide...
+  tile: Where is it happening?
+  description: IGS 2019 will be held at Simon Fraser University, Vancouver, Canada.
+  
+- image: A.jpeg 
+  tile: Enjoy the city!
+  description: Vancouver is a beautiful city with many tourist attractions.
+
+- image: C.jpeg 
+  tile: Gathering the experts
+  description: IGS 2019 includes four geometry related conferences. Please check out the <a class="page-scroll" href="#about">conferences</a>.
+  
+- image: D.jpeg 
+  tile: Join us!
+  description: Attend IGS 2019 by sending your recent work to one of the featured conferences.
