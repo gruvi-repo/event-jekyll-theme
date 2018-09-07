@@ -1,25 +1,34 @@
-- title: Richard Zhang
-  name: Richard Zhang
-  subtitle: Placeholder
-  img: TBD.jpg
+- title: Konrad  Polthier 
+  name: Konrad  Polthier 
+  subtitle: Free  University  of  Berlin
+  img: konradPolthier.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Ali Mahdavi-Amiri
-  name: Ali Mahdavi-Amiri
-  subtitle: Placeholder
-  img: TBD.jpg
+- title: Wenping  Wang
+  name: Wenping  Wang
+  subtitle: University  of  Hong  Kong 
+  img: wenpingWang.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Wallace Lira
-  name: Wallace Lira
-  subtitle: Website manager
-  img: TBD.jpg
+- title: Richard (Hao) Zhang
+  name: Richard (Hao) Zhang
+  subtitle: Simon  Fraser  University 
+  img: richardZhang.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  
+- title: Ali  Mahdavi  Amiri
+  name:Ali  Mahdavi  Amiri
+  subtitle: Simon  Fraser  University
+  img: amiriAli.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
