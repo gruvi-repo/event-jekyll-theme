@@ -25,6 +25,7 @@
 }
 
 .carousel-caption-side {
+  max-width: 600px;
   background: none repeat scroll 0 0 #000000;
   margin-top: 50vh;
   float: left;
