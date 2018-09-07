@@ -1,5 +1,6 @@
 - title: Konrad Polthier 
   name: Konrad Polthier 
+  position: Conference Chair
   subtitle: Free  University  of  Berlin
   img: konradPolthier.jpg
   thumbnail: konhadPolthier.jpg
@@ -9,6 +10,7 @@
 
 - title: Wenping Wang
   name: Wenping Wang
+  position: Conference Chair
   subtitle: University  of  Hong  Kong 
   img: wenpingWang.jpg
   thumbnail: wenpingWang.jpg
@@ -18,6 +20,7 @@
 
 - title: Richard (Hao) Zhang
   name: Richard (Hao) Zhang
+  position: Conference Chair
   subtitle: Simon  Fraser  University 
   img: richardZhang.jpg
   thumbnail: richardZhang.jpg
@@ -27,7 +30,8 @@
   
 - title: Ali Mahdavi-Amiri
   name: Ali Mahdavi-Amiri
-  subtitle: Simon  Fraser  University
+  position: Local Organizing Chair
+  subtitle: Simon Fraser University
   img: amiriAli.jpg
   thumbnail: aliAmiri.jpg
   alt: Picture of TBD
