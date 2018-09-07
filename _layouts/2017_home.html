@@ -22,10 +22,13 @@
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           {% assign id = 0 %}
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           {% for post in site.data.twenty_17.carousel %}
-            {% assign id = id | plus: 1 %}
-            <li data-target="#carouselExampleIndicators" data-slide-to="{{ numPages }}"></li>
+          {% if id == 0 %}
+           <li data-target="#carouselExampleIndicators" data-slide-to="{{id}}" class="active"></li>
+          {% else %}
+           <li data-target="#carouselExampleIndicators" data-slide-to="{{ id }}"></li>
+          {% endif %}
+          {% assign id = id | plus: 1 %}
           {% endfor %}
         </ol>
         <div class="carousel-inner" role="listbox">
