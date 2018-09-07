@@ -21,48 +21,31 @@
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
+          {% assign id = 0 %}
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          {% for post in site.data.twenty_17.carousel %}
+            {% assign id = id | plus: 1 %}
+            <li data-target="#carouselExampleIndicators" data-slide-to="{{ numPages }}"></li>
+          {% endfor %}
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url({{ site.baseurl }}/css/2016_style/img/header-bg.jpg)">
+          {% assign id = 0 %}
+          {% for post in site.data.twenty_17.carousel %}
+          {% assign id = id | plus: 1 %}
+          
+          {% if id == 1 %}
+            <div class="carousel-item active" style="background-image: url({{ site.baseurl }}/css/2016_style/img/{{post.image}})">
+          {% else %}
+            <div class="carousel-item" style="background-image: url({{ site.baseurl }}/css/2016_style/img/{{post.image}})">
+          {% endif %}
+          
             <div class="carousel-caption-side d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h3>post.title</h3>
+              <p>post.description</p>
             </div>
           </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url({{ site.baseurl }}/css/2016_style/img/A.jpeg)">
-            <div class="carousel-caption-side d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url({{ site.baseurl }}/css/2016_style/img/B.jpeg)">
-            <div class="carousel-caption-side d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
-          <!-- Slide Four - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url({{ site.baseurl }}/css/2016_style/img/C.jpeg)">
-            <div class="carousel-caption-side d-md-block">
-              <h3>Fourth Slide</h3>
-              <p>This is a description for the fourth slide.</p>
-            </div>
-          </div>
-          <!-- Slide Five - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url({{ site.baseurl }}/css/2016_style/img/D.jpeg)">
-            <div class="carousel-caption-side d-md-block">
-              <h3>Fifth Slide</h3>
-              <p>This is a description for the fifth slide.</p>
-            </div>
-          </div>
+          {% endfor %}
         </div>
         <!-- 
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
