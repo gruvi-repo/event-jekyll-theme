@@ -457,7 +457,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
         line-height: 40px;
     }
@@ -480,7 +480,7 @@ aside.clients h2,
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 33px;
 }
 
 section h3.section-subheading {
