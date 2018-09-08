@@ -476,7 +476,7 @@ section {
     padding: 100px 0;
 }
 
-@media(min-width:312px) {  
+@media(max-width:400px) {  
 aside.clients h2,
 section h2.section-heading {
     font-size: 22px;
