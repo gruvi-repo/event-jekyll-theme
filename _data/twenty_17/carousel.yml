@@ -1,6 +1,10 @@
 - image: B.jpeg 
-  title: IGS 2019 17-21 June 2019
-  description: Simon Fraser University, Vancouver, Canada
+  title: International Geometry Summit (IGS) 2019
+  description: Will be taking place from 17 to 21 June
+  
+- image: header-bg.jpg
+  title: Venue
+  description: IGS'19 will be taking place at the Simon Fraser University, Vancouver, Canada
   
 - image: A.jpeg 
   title: Enjoy the city!
@@ -11,5 +15,5 @@
   description: IGS 2019 includes four geometry related <a class="page-scroll" href="#about">conferences</a>
   
 - image: D.jpeg 
-  title: Join us!
-  description: Attend IGS 2019 by sending your recent work to one of the featured conferences
+  title: Publish here!
+  description: Push the reseach further by sending your recent work to one of the featured IGS'19 <a class="page-scroll" href="#about">conferences</a>
