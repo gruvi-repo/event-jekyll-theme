@@ -1,4 +1,5 @@
-- title: Konrad Polthier 
+- title: Konrad Polthier
+  website: http://page.mi.fu-berlin.de/polthier/
   name: Konrad Polthier 
   position: Conference Chair
   subtitle: Free  University  of  Berlin
@@ -9,6 +10,7 @@
   description: More Info
 
 - title: Wenping Wang
+  website: https://i.cs.hku.hk/~wenping/
   name: Wenping Wang
   position: Conference Chair
   subtitle: University  of  Hong  Kong 
@@ -19,6 +21,7 @@
   description: More Info
 
 - title: Richard (Hao) Zhang
+  website: http://www.cs.sfu.ca/~haoz/
   name: Richard (Hao) Zhang
   position: Conference Chair
   subtitle: Simon  Fraser  University 
@@ -29,6 +32,7 @@
   description: More Info
   
 - title: Ali Mahdavi-Amiri
+  website: https://sites.google.com/site/alimahdaviamiri/
   name: Ali Mahdavi-Amiri
   position: Local Organizing Chair
   subtitle: Simon Fraser University
