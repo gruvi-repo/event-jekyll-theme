@@ -4,7 +4,7 @@
   
 - image: header-bg.jpg
   title: Venue
-  description: IGS'19 will be taking place at the Simon Fraser University, Vancouver, Canada
+  description: IGS 2019 will take place at the Simon Fraser University, Vancouver, Canada
   
 - image: A.jpeg 
   title: Enjoy the city!
@@ -15,5 +15,5 @@
   description: IGS 2019 includes four geometry related <a class="page-scroll" href="#about">conferences</a>
   
 - image: D.jpeg 
-  title: Publish here!
-  description: Push the reseach further by sending your recent work to one of the featured IGS'19 <a class="page-scroll" href="#about">conferences</a>
+  title: Submit your work!
+  description: Push the reseach further by sending your recent work to one of the featured <a class="page-scroll" href="#about">conferences</a>
