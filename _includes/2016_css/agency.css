@@ -412,7 +412,7 @@ header {
     height: 100vh;
     text-align: center;
     color: #fff;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/B.jpeg');
+    background-image: url('/css/2016_style/img/B.jpeg');
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
@@ -792,7 +792,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/map-image.png');
+    background-image: url('/css/2016_style/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
