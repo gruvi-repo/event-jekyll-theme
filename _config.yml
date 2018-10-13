@@ -10,7 +10,6 @@ title: IGS'19
 email: haoz@sfu.ca
 description: > # this means to ignore newlines until "baseurl:"
   The International Geometry Summit 2019 (IGS2019) is a joint event and co-location of the major conferences in applied geometry.
-baseurl: ""
 url: "http://geometrysummit2019.org"
 
 include:
