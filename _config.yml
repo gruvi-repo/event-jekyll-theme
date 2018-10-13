@@ -1,10 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: IGS'19
-email: a.mahdavi.amiri@gmail.com
+email: haoz@sfu.ca
 description: > # this means to ignore newlines until "baseurl:"
   The International Geometry Summit 2019 (IGS2019) is a joint event and co-location of the major conferences in applied geometry.
 baseurl: ""
-url: "http://www.geometrysummit2019.org"
+url: "http://geommetrysummit2019.org"
 
 include:
   - .htaccess
